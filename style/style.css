@@ -1,0 +1,137 @@
+* {
+    margin: 0 auto;
+    font-family: "Monstserrat", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    gap: 30px;
+    padding: 40px;
+}
+
+.info-about-me>p {
+    padding-bottom: 20px;
+}
+
+.name {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.blue-back {
+    background-color: #E8F1FF;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav-bar>a {
+    text-decoration: none;
+    color: #253D61;
+    padding: 30px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.achiv {
+    display: grid;
+    grid-template-columns: 50px auto;
+    padding: 30px;
+}
+
+.round {
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: #182862;
+    margin: 10px;
+}
+
+.sertificat {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.name-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+}
+
+.sertificat {
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact {
+    background-color: #E8F1FF;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.contact>h3 {
+    padding-top: 20px;
+}
+
+.workAge { 
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 2px solid black; /* Расстояние между ячейками */
+    text-align: center;
+    border-radius: 10px;
+}
+   td, th {
+    padding: 15px; /* Поля вокруг текста */
+    background: #e8f1ff6a;
+   }
+
+.header-table {
+    background-color: #e8f1ff;
+}
+
+.margin-block {
+    margin-top: 100px;
+}
