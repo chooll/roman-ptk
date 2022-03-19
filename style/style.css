@@ -4,7 +4,7 @@
 }
 
 .container {
-    max-width: 800px;
+        width: 800px;
     margin: 0 auto;
 }
 
@@ -162,3 +162,97 @@ table {
 .achivment-block > img:hover {
     box-shadow: 0px 1px 9px 1px rgba(103, 19, 213, 0.25);
 }   
+
+
+@media screen and (max-width: 800px) {
+    .container {
+       width: 600px;
+    }
+
+    .about-me {
+        display: flex;
+        gap: 30px;
+        padding: 40px;
+    }
+
+    .split {
+        display: block;
+        padding: 30px;
+    }
+
+    .contact {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .map {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 370px;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .name {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .workAge {
+        text-align: center;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    td, th {
+        padding: 15px; /* Поля вокруг текста */
+        background: #e8f1ff6a;
+       }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .name-block {
+        text-align: center;
+    }
+
+    .achivment-block {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+    .achivment-block > img {
+        width: 60%;
+    }
+
+    .blue-back {
+        padding: 10px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .about-me {
+        padding: 0px;
+    }
+
+    .image {
+        background: none;
+    }
+
+    .image > img{
+        width: 85%;
+        display: flex;
+    }
+}
