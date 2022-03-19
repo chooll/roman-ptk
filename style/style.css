@@ -97,6 +97,7 @@ img {
 .split {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 20px;
 }
 
 .contact {
@@ -134,4 +135,13 @@ table {
 
 .margin-block {
     margin-top: 100px;
+}
+
+.marg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.map {
+    background-color: white;
 }
